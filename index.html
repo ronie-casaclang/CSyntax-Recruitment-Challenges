@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> CSyntax Challenges </title>
+    <link rel="icon" href="CSyntax.png"/>
+    <style>
+        body{
+            margin: 0 auto;
+            padding: 10%;
+            background-color: aliceblue;
+            background: linear-gradient(to top right, rgb(197, 224, 255), rgb(230, 181, 255));
+            background-color: white;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        body::-webkit-scrollbar{
+            width: 1px;
+        }
+        div{
+            background-color: transparent;
+        }
+        h1{
+            font-size: 4.7vh;
+            color: rgb(0, 0, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            font-size: 3.5vh;
+            color: rgb(0, 0, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+        #txtInput, textarea{
+            width: 38%;
+            height: 100px;
+            padding: 15px;
+            outline: none;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #txtFileName{
+            width: 250px;
+            height: 12px;
+            padding: 12px;
+            box-sizing: border-box;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        button{
+            font-size: 15px;
+            width: 100px;
+            height: 25px;
+            outline: none;  
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body onload="onload()">
+    <div>
+        <h1 id="txtTitle"> TITLE HERE </h1>
+        <p id="txtChallenge"> This is just a sample message. </p>
+        <textarea id="txtInput" placeholder="Paste your code here..." rows="5" cols="200"></textarea>
+        <br>
+        <input type="text" id="txtFileName" placeholder="Enter your name..."/>    
+        <button id="btnSave">Save</button>
+        <h6 id="error" style="color: red; margin-top: 7px; font-family: sans-serif; visibility: hidden;"> *Required textfield </h6>
+    </div>
+    <script type="text/javascript" src="Challenges.js"></script>
+    <script type="text/javascript" src="Script.js"></script>
+</body>
+</html>
