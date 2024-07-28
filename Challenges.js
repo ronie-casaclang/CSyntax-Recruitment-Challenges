@@ -3,9 +3,9 @@ var txtChallenge = document.getElementById('txtChallenge');
 
 var Title = [
     "Compute Days to Seconds", 
-    "Simple Chat Bot",
+    "Simple ChatBot",
     "Total Price",
-    "Sum",
+    "Sum it up",
     "Simple Calculator",
     "Conductor Tickets",
     "Coffee Machine",
